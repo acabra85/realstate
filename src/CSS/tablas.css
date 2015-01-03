@@ -1,0 +1,191 @@
+@charset "utf-8";
+/* CSS Document */
+    
+        #nombre_cliente {
+            width: 95%;
+        }
+        #dir_cliente{
+            width: 95%;
+        }
+	table.tabla_cliente caption {
+			font: bold 1em/1.5em "Trebuchet MS", Tahoma, Arial, sans-serif;
+			color: #000;
+			text-align: center;
+			margin: 10px auto;
+			}
+
+	table.tabla_cliente tbody tr.r1 th {
+			font: bold .9em/1.5em "Trebuchet MS", Tahoma, Arial, sans-serif;
+			color: #fff;
+			background: #808080;
+			text-align: left;
+			padding: 5px;
+			border: 0;
+			}
+
+	table.tabla_cliente tbody tr.r2{
+			font: bold .9em/1.5em "Trebuchet MS", Tahoma, Arial, sans-serif;
+			color: #fff;
+			background: #808080;
+			text-align: left;
+			padding: 5px;
+			border: 0;
+			}
+			
+			
+	table.tabla_cliente tbody tr.r1{
+			font: bold .9em/1.5em "Trebuchet MS", Tahoma, Arial, sans-serif;
+			color: #fff;
+			background: #FF6600;
+			text-align: left;
+			padding: 5px;
+			border: 0;
+			}
+			
+	table.tabla_cliente tbody tr.raction{
+			font: bold .9em/1.5em "Trebuchet MS", Tahoma, Arial, sans-serif;
+			color: #fff;
+			background: #E8E8E8;
+			text-align: right;
+			padding: 5px;
+			border: 0;
+			}
+
+
+        table.tabla_cliente1 caption {
+			font: bold 1em/1.5em "Trebuchet MS", Tahoma, Arial, sans-serif;
+			color: #000;
+			text-align: center;
+			margin: 10px auto;
+			}
+
+	table.tabla_cliente1 tbody tr.r1 th {
+			font: bold .9em/1.5em "Trebuchet MS", Tahoma, Arial, sans-serif;
+			color: #fff;
+			background: #808080;
+			text-align: left;
+			padding: 5px;
+			border: 0;
+			}
+
+	table.tabla_cliente1 tbody tr.r2{
+			font: bold .9em/1.5em "Trebuchet MS", Tahoma, Arial, sans-serif;
+			color: #fff;
+			background: #808080;
+			text-align: left;
+			padding: 5px;
+			border: 0;
+			}
+
+
+	table.tabla_cliente1 tbody tr.r1{
+			font: bold .9em/1.5em "Trebuchet MS", Tahoma, Arial, sans-serif;
+			color: #fff;
+			background: #FF6600;
+			text-align: left;
+			padding: 5px;
+			border: 0;
+			}
+
+	table.tabla_cliente1 tbody tr.raction{
+			font: bold .9em/1.5em "Trebuchet MS", Tahoma, Arial, sans-serif;
+			color: #fff;
+			background: #E8E8E8;
+			text-align: right;
+			padding: 5px;
+			border: 0;
+			}
+			
+	input.but{
+	   font-size:11px;
+	   font-family:Tahoma,sans-serif;
+	   text-align:right;
+	   color:#FFFFFF;
+	   width:96px;
+	   height:26px;
+	   background-color:#808080;
+	   border-top-style:solid;
+	   border-top-color:#808080;
+	   border-top-width:1px;
+	   border-bottom-style:solid;
+	   border-bottom-color:#808080;
+	   border-bottom-width:1px;
+	   border-left-style:solid;
+	   border-left-color:#808080;
+	   border-left-width:6px;
+	   border-right-style:solid;
+	   border-right-color:#808080;
+	   border-right-width:6px;
+	}
+	
+	input.but2{
+	   font-size:11px;
+	   font-family:Tahoma,sans-serif;
+	   text-align:right;
+	   color:#FFFFFF;
+	   width:96px;
+	   height:26px;
+	   background-color:#808080;
+	   border-top-style:solid;
+	   border-top-color:#808080;
+	   border-top-width:1px;
+	   border-bottom-style:solid;
+	   border-bottom-color:#808080;
+	   border-bottom-width:1px;
+	   border-left-style:solid;
+	   border-left-color:#808080;
+	   border-left-width:6px;
+	   border-right-style:solid;
+	   border-right-color:#808080;
+	   border-right-width:6px;
+	}
+	
+	table.ppal
+	{
+		border-style:none;
+		border-width:thin;
+		border-color:#999;
+	}
+	table.hidden_items
+	{
+		display:none;
+	}
+        #menu
+        {
+            font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+            width:70%;
+            border-collapse:collapse;
+            font-size: 0.8em;
+}
+        #menu td, #menu th 
+        {
+            font-size:0.9em;
+            border:1px solid #606060;
+            padding:1px 1px 1px 1px;
+            text-align:center;
+        }
+        #menu th 
+        {
+            font-size:0.9em;
+            text-align:center;
+            padding-top:0.5px;
+            padding-bottom:0.5px;
+            background-color:#606060;
+            color:#ffffff;
+        }
+        #menu tr.alt td 
+        {
+            color:#000000;
+            text-align:center;
+            background-color:#E8E8E8;
+        }
+        #marco
+        {
+            color:#000000;
+            text-align:center;
+            background-color:#808080;
+        }
+        .image
+        {
+         border: 0px;   
+        }

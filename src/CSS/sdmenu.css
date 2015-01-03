@@ -1,0 +1,70 @@
+/* 
+    Document   : sdmenu
+    Created on : Oct 16, 2011, 7:59:26 PM
+    Author     : Agustin
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+div.sdmenu {
+	width: 150px;
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+	padding-bottom: 10px;
+	background: url(bottom.gif) no-repeat  right bottom;
+	color: #FFFFFF;
+}
+div.sdmenu div {
+	background: url(title.gif) repeat-x;
+	overflow: hidden;
+}
+div.sdmenu div.primero{
+	background: url(toptitle.gif) no-repeat;
+}
+/*div.sdmenu div:first-child {
+	background: url(toptitle.gif) no-repeat;
+}*/
+div.sdmenu div.collapsed {
+	height: 25px;
+}
+div.sdmenu div span {
+	display: block;
+	padding: 5px 25px;
+	font-weight: bold;
+	color: black;
+        text-align: left;
+	background: url(expanded.gif) no-repeat 10px;
+	cursor: default;
+	border-bottom: 1px solid #ddd;
+}
+div.sdmenu div.collapsed span {
+	background-image: url(collapsed.gif);
+}
+div.sdmenu div a {
+	padding: 5px 10px;
+	background: #EEEEEE;
+	display: block;
+	border-bottom: 1px solid #ddd;
+	color: #0177B7;
+}
+div.sdmenu div a.current {
+	background : #ccc;
+}
+div.sdmenu div a:hover {
+	background : #0177B7 url(linkarrow.gif) no-repeat right center;
+	color: #fff;
+	text-decoration: none;
+}
+a {
+	padding: 5px 10px;
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+	display: block;
+	border-bottom: 1px solid #ddd;
+	color: #0177B7;
+}

@@ -1,0 +1,9 @@
+ ; ; ;Reg. Pago:;00006
+ ; ; ;Fecha Pago:;2011-11-23
+Cliente:;PGC; ; ; 
+Identificacion:;1234567891; ; ; 
+No. Contrato;Concepto;No. Matricula;No. Cuota;Valor Cuota
+4;Arriendo;AAA000;2;760.00
+ ; ; ;Base Iva:;655.172
+ ; ; ;IVA 16%:;104.827
+ ; ; ;Total:;760.00

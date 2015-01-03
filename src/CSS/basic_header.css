@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+
+	#basic_header1
+	{
+		font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+		width:100%;
+		border-collapse:collapse;
+	}
+	#basic_header1 td, #basic_header1	 th 
+	{
+		font-size:1em;
+		border:1px solid #606060;
+		padding:3px 7px 2px 7px;
+	}
+	#basic_header1 th 
+	{
+		font-size:1.1em;
+		text-align:center;
+		padding-top:5px;
+		padding-bottom:4px;
+		background-color:#606060;
+		color:#ffffff;
+	}
+	#basic_header1 tr.alt td 
+	{
+		color:#000000;
+		background-color:#E8E8E8;
+	}
+	#basic_header1 tr.alt td.icons
+	{
+		color:#000000;
+		background-color:#E8E8E8;
+		text-align:right;
+	}
+	#basic_header1 tr th.field_user
+	{
+		color:#ffffff;
+		background-color:#909090;
+		text-align:right;
+		width:20px;
+		font-size:0.8em;
+                font-style:italic;
+	}
+	#basic_header1 tr th.field_logo
+	{
+		color:#ffffff;
+		background-color:#909090;
+		text-align:center;
+		width:120px;
+	}
+	#basic_header1 tr th.titulo
+	{
+		color:#ffffff;
+		background-color:#909090;
+		text-align:center;
+	}
+	#basic_header1 tr th.value_user
+	{
+		color:#000000;
+		background-color:#E8E8E8;
+		text-align:left;
+		width:250px;
+		font-size:0.7em;
+                font-style:italic;
+	}
+	#basic_header1 tr.alt td.date_field 
+	{
+		color:#000000;
+		background-color:#E8E8E8;
+		font-size:0.5em;
+                font-style:oblique;
+                text-align: center;
+	}
+        
