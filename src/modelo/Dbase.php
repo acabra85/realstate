@@ -1,5 +1,5 @@
 <?php
-    include_once("C:/wamp/www/Inmosys/ctrl/security.php");
+    include_once("../ctrl/security.php");
 
 /*
  * To change this template, choose Tools | Templates
