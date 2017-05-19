@@ -113,6 +113,7 @@ class Vista
                 $info = "ERORR DESCONOCIDO";
                 $msg = "FAVOR CONSULTE AL ADMINISTRADOR DEL SISTEMA!";
                 $this->genHtml->imprimirResultado($info, $msg);
+                break;
         }
     }
 public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
@@ -155,6 +156,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 $info = "ERORR DESCONOCIDO";
                 $msg = "FAVOR CONSULTE AL ADMINISTRADOR DEL SISTEMA!";
                 $this->genHtml->imprimirResultado($info, $msg);
+                break;
         }
     }
     public function ejecutarProcesarClienteJuridico($cedC, $nomC, $emailC, $telfC, $telcC, $dweb)
@@ -197,6 +199,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 $info = "ERORR DESCONOCIDO";
                 $msg = "FAVOR CONSULTE AL ADMINISTRADOR DEL SISTEMA!";
                 $this->genHtml->imprimirResultado($info, $msg);
+                break;
         }
     }
 
@@ -246,6 +249,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 $info = "ERORR DESCONOCIDO";
                 $msg = "FAVOR CONSULTE AL ADMINISTRADOR DEL SISTEMA!";
                 $this->genHtml->imprimirResultado($info, $msg);
+                break;
         }
     }
      
@@ -334,6 +338,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 $info = "ERORR DESCONOCIDO";
                 $msg = "FAVOR CONSULTE AL ADMINISTRADOR DEL SISTEMA!";
                 $this->genHtml->imprimirResultado($info, $msg);
+                break;
         }
     }
 
@@ -374,6 +379,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 $info = "ERORR DESCONOCIDO";
                 $msg = "FAVOR CONSULTE AL ADMINISTRADOR DEL SISTEMA!";
                 $this->genHtml->imprimirResultado($info, $msg);
+                break;
         }
     }
 
@@ -410,6 +416,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 $info = "ERORR DESCONOCIDO";
                 $msg = "FAVOR CONSULTE AL ADMINISTRADOR DEL SISTEMA!";
                 $this->genHtml->imprimirResultado($info, $msg);
+                break;
         }
     }
 
@@ -451,6 +458,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 $info = "ERORR DESCONOCIDO";
                 $msg = "FAVOR CONSULTE AL ADMINISTRADOR DEL SISTEMA!";
                 $this->genHtml->imprimirResultado($info, $msg);
+                break;
         }
     }
     
@@ -493,6 +501,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 $info = "ERORR DESCONOCIDO";
                 $msg = "FAVOR CONSULTE AL ADMINISTRADOR DEL SISTEMA!";
                 $this->genHtml->imprimirResultado($info, $msg);
+                break;
         }
     }
 
@@ -511,6 +520,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 break;
             default:
                 header('Location: ../index.php?msg=unknown');
+                break;
         }
     }
 
@@ -554,6 +564,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 $info = "ERORR DESCONOCIDO";
                 $msg = "FAVOR CONSULTE AL ADMINISTRADOR DEL SISTEMA!";
                 $this->genHtml->imprimirResultado($info, $msg);
+                break;
         }
     }
 
@@ -574,6 +585,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 $info = "ERORR DESCONOCIDO";
                 $msg = "FAVOR CONSULTE AL ADMINISTRADOR DEL SISTEMA!";
                 $this->genHtml->imprimirResultado($info, $msg);
+                break;
         }
     }
 
@@ -594,6 +606,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 $info = "ERORR DESCONOCIDO";
                 $msg = "FAVOR CONSULTE AL ADMINISTRADOR DEL SISTEMA!";
                 $this->genHtml->imprimirResultado($info, $msg);
+                break;
         }
     }
     
@@ -614,6 +627,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 $info = "ERORR DESCONOCIDO";
                 $msg = "FAVOR CONSULTE AL ADMINISTRADOR DEL SISTEMA!";
                 $this->genHtml->imprimirResultado($info, $msg);
+                break;
         }
     }
 
@@ -635,6 +649,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 $info = "ERORR DESCONOCIDO";
                 $msg = "FAVOR CONSULTE AL ADMINISTRADOR DEL SISTEMA!";
                 $this->genHtml->imprimirResultado($info, $msg);
+                break;
         }
     }
 
@@ -655,6 +670,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 $info = "ERORR DESCONOCIDO";
                 $msg = "FAVOR CONSULTE AL ADMINISTRADOR DEL SISTEMA!";
                 $this->genHtml->imprimirResultado($info, $msg);
+                break;
         }
     }
     
@@ -675,6 +691,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 $info = "ERORR DESCONOCIDO";
                 $msg = "FAVOR CONSULTE AL ADMINISTRADOR DEL SISTEMA!";
                 $this->genHtml->imprimirResultado($info, $msg);
+                break;
         }
     }
 
@@ -695,6 +712,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 $info = "ERORR DESCONOCIDO";
                 $msg = "FAVOR CONSULTE AL ADMINISTRADOR DEL SISTEMA!";
                 $this->genHtml->imprimirResultado($info, $msg);
+                break;
         }
     }
 
@@ -715,6 +733,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 $info = "ERORR DESCONOCIDO";
                 $msg = "FAVOR CONSULTE AL ADMINISTRADOR DEL SISTEMA!";
                 $this->genHtml->imprimirResultado($info, $msg);
+                break;
         }
     }
 
@@ -735,6 +754,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 $info = "ERORR DESCONOCIDO";
                 $msg = "FAVOR CONSULTE AL ADMINISTRADOR DEL SISTEMA!";
                 $this->genHtml->imprimirResultado($info, $msg);
+                break;
         }
     }
 
@@ -755,6 +775,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 $info = "ERORR DESCONOCIDO";
                 $msg = "FAVOR CONSULTE AL ADMINISTRADOR DEL SISTEMA!";
                 $this->genHtml->imprimirResultado($info, $msg);
+                break;
         }
     }
 
@@ -775,6 +796,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 $info = "ERORR DESCONOCIDO";
                 $msg = "FAVOR CONSULTE AL ADMINISTRADOR DEL SISTEMA!";
                 $this->genHtml->imprimirResultado($info, $msg);
+                break;
         }
     }
 
@@ -796,6 +818,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 $info = "ERORR DESCONOCIDO";
                 $msg = "FAVOR CONSULTE AL ADMINISTRADOR DEL SISTEMA!";
                 $this->genHtml->imprimirResultado($info, $msg);
+                break;
         }
     }
 
@@ -817,6 +840,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 $info = "ERORR DESCONOCIDO";
                 $msg = "FAVOR CONSULTE AL ADMINISTRADOR DEL SISTEMA!";
                 $this->genHtml->imprimirResultado($info, $msg);
+                break;
         }
     }
 
@@ -843,6 +867,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 $info = "ERORR DESCONOCIDO";
                 $msg = "FAVOR CONSULTE AL ADMINISTRADOR DEL SISTEMA!";
                 $this->genHtml->imprimirResultado($info, $msg);
+                break;
         }
     }
 
@@ -883,6 +908,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 $info = "ERORR DESCONOCIDO";
                 $msg = "FAVOR CONSULTE AL ADMINISTRADOR DEL SISTEMA!";
                 $this->genHtml->imprimirResultado($info, $msg);
+                break;
         }
     }
 
@@ -904,6 +930,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 $info = "ERORR DESCONOCIDO";
                 $msg = "FAVOR CONSULTE AL ADMINISTRADOR DEL SISTEMA!";
                 $this->genHtml->imprimirResultado($info, $msg);
+                break;
         }
     }
 
@@ -946,6 +973,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 $info = "ERORR DESCONOCIDO";
                 $msg = "FAVOR CONSULTE AL ADMINISTRADOR DEL SISTEMA!";
                 $this->genHtml->imprimirResultado($info, $msg);
+                break;
         }
     }
     public function ejecutarMostrarPaises()
@@ -965,6 +993,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 $info = "ERORR DESCONOCIDO";
                 $msg = "FAVOR CONSULTE AL ADMINISTRADOR DEL SISTEMA!";
                 $this->genHtml->imprimirResultado($info, $msg);
+                break;
         }
     }
 
@@ -986,6 +1015,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 break;
             default:
                 header('Location: ../index.php?msg=unknown');
+                break;
         }
     }
     public function ejecutarProcesarDepartamento($nom, $cod, $idp)
@@ -1027,6 +1057,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 $info = "ERORR DESCONOCIDO";
                 $msg = "FAVOR CONSULTE AL ADMINISTRADOR DEL SISTEMA!";
                 $this->genHtml->imprimirResultado($info, $msg);
+                break;
         }
 
     }
@@ -1049,6 +1080,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 $info = "ERORR DESCONOCIDO";
                 $msg = "FAVOR CONSULTE AL ADMINISTRADOR DEL SISTEMA!";
                 $this->genHtml->imprimirResultado($info, $msg);
+                break;
         }
     }
 
@@ -1069,6 +1101,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 break;
             default:
                 header('Location: ../index.php?msg=unknown');
+                break;
         }
     }
 
@@ -1130,6 +1163,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                     break;
             default:
                 header('Location: ../index.php?msg=unknown');
+                break;
         }
     }
 
@@ -1150,6 +1184,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 $info = "ERORR DESCONOCIDO";
                 $msg = "FAVOR CONSULTE AL ADMINISTRADOR DEL SISTEMA!";
                 $this->genHtml->imprimirResultado($info, $msg);
+                break;
         }
     }
 
@@ -1167,6 +1202,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 break;
             default:
                 header('Location: ../index.php?msg=unknown');
+                break;
         }
     }
     
@@ -1185,7 +1221,8 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
             default:
                 $info = "ERORR DESCONOCIDO";
                 $msg = "FAVOR CONSULTE AL ADMINISTRADOR DEL SISTEMA!";
-                $this->genHtml->imprimirResultado($info, $msg);                
+                $this->genHtml->imprimirResultado($info, $msg);     
+                break;           
         }
     }
 
@@ -1205,6 +1242,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 $info = "ERORR DESCONOCIDO";
                 $msg = "FAVOR CONSULTE AL ADMINISTRADOR DEL SISTEMA!";
                 $this->genHtml->imprimirResultado($info, $msg);
+                break;
         }
     }
 
@@ -1224,6 +1262,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 $info = "ERORR DESCONOCIDO";
                 $msg = "FAVOR CONSULTE AL ADMINISTRADOR DEL SISTEMA!";
                 $this->genHtml->imprimirResultado($info, $msg);
+                break;
         }
     }
 
@@ -1243,6 +1282,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 $info = "ERORR DESCONOCIDO";
                 $msg = "FAVOR CONSULTE AL ADMINISTRADOR DEL SISTEMA!";
                 $this->genHtml->imprimirResultado($info, $msg);
+                break;
         }
     }
     
@@ -1285,6 +1325,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 $info = "ERORR DESCONOCIDO";
                 $msg = "FAVOR CONSULTE AL ADMINISTRADOR DEL SISTEMA!";
                 $this->genHtml->imprimirResultado($info, $msg);
+                break;
         }
     }
 
@@ -1333,6 +1374,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 $info = "ERORR DESCONOCIDO";
                 $msg = "FAVOR CONSULTE AL ADMINISTRADOR DEL SISTEMA!\nERROR CON LA SENTENCIA SQL";
                 $this->genHtml->imprimirResultado($info, $msg);
+                break;
         }
     }
     public function ejecutarMostrarSucursales()
@@ -1353,6 +1395,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 $info = "ERORR DESCONOCIDO";
                 $msg = "FAVOR CONSULTE AL ADMINISTRADOR DEL SISTEMA!";
                 $this->genHtml->imprimirResultado($info, $msg);
+                break;
         }
     }
 
@@ -1371,6 +1414,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 break;
             default:
                 header('Location: ../index.php?msg=unknown');
+                break;
         }
     }
 
@@ -1423,6 +1467,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 $info = "ERORR DESCONOCIDO";
                 $msg = "FAVOR CONSULTE AL ADMINISTRADOR DEL SISTEMA!\nERROR DE EJECUCION SQL";
                 $this->genHtml->imprimirResultado($info, $msg);
+                break;
         }
     }
 
@@ -1470,6 +1515,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 $info = "ERORR DESCONOCIDO";
                 $msg = "FAVOR CONSULTE AL ADMINISTRADOR DEL SISTEMA!\nERROR DE EJECUCION SQL";
                 $this->genHtml->imprimirResultado($info, $msg);
+                break;
         }
     }
 
@@ -1490,6 +1536,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 $info = "ERORR DESCONOCIDO";
                 $msg = "FAVOR CONSULTE AL ADMINISTRADOR DEL SISTEMA!";
                 $this->genHtml->imprimirResultado($info, $msg);
+                break;
         }
     }
 
@@ -1511,6 +1558,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 $info = "ERORR DESCONOCIDO";
                 $msg = "FAVOR CONSULTE AL ADMINISTRADOR DEL SISTEMA!";
                 $this->genHtml->imprimirResultado($info, $msg);
+                break;
         }
     }
 
@@ -1558,6 +1606,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                     break;
             default:
                 header('Location: ../index.php?msg=unknown');
+                break;
         }
 
     }
@@ -1582,6 +1631,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 $info = "ERORR DESCONOCIDO";
                 $msg = "FAVOR CONSULTE AL ADMINISTRADOR DEL SISTEMA!";
                 $this->genHtml->imprimirResultado($info, $msg);
+                break;
         }
     }
 
@@ -1602,6 +1652,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 $info = "ERORR DESCONOCIDO";
                 $msg = "FAVOR CONSULTE AL ADMINISTRADOR DEL SISTEMA!";
                 $this->genHtml->imprimirResultado($info, $msg);
+                break;
         }
     }
 
@@ -1622,6 +1673,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 $info = "ERORR DESCONOCIDO";
                 $msg = "FAVOR CONSULTE AL ADMINISTRADOR DEL SISTEMA!";
                 $this->genHtml->imprimirResultado($info, $msg);
+                break;
         }
     }
 
@@ -1642,6 +1694,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 $info = "ERORR DESCONOCIDO";
                 $msg = "FAVOR CONSULTE AL ADMINISTRADOR DEL SISTEMA!";
                 $this->genHtml->imprimirResultado($info, $msg);
+                break;
         }
     }
 
@@ -1686,6 +1739,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                     break;
             default:
                 header('Location: ../index.php?msg=unknown');
+                break;
         }
     }
 
@@ -1717,6 +1771,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 $info = "ERORR DESCONOCIDO";
                 $msg = "FAVOR CONSULTE AL ADMINISTRADOR DEL SISTEMA!";
                 $this->genHtml->imprimirResultado($info, $msg);
+                break;
         }
     }
 
@@ -1772,6 +1827,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 $info = "ERORR DESCONOCIDO";
                 $msg = "FAVOR CONSULTE AL ADMINISTRADOR DEL SISTEMA!";
                 $this->genHtml->imprimirResultado($info, $msg);
+                break;
         }
     }
 
@@ -1847,6 +1903,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 $info = "ERROR DE INSERCION";
                 $msg = "FAVOR CONSULTE AL ADMINISTRADOR DEL SISTEMA!";
                 $this->genHtml->imprimirResultado($info, $msg);
+                break;
         }
     }
 
@@ -1868,6 +1925,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 $info = "ERORR DESCONOCIDO";
                 $msg = "FAVOR CONSULTE AL ADMINISTRADOR DEL SISTEMA!";
                 $this->genHtml->imprimirResultado($info, $msg);
+                break;
         }
     }
 
@@ -1888,6 +1946,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 $info = "ERORR DESCONOCIDO";
                 $msg = "FAVOR CONSULTE AL ADMINISTRADOR DEL SISTEMA!";
                 $this->genHtml->imprimirResultado($info, $msg);
+                break;
         }
     }
 
@@ -1947,6 +2006,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 $info = "ERORR DE INSERCION";
                 $msg = "FAVOR CONSULTE AL ADMINISTRADOR DEL SISTEMA!";
                 $this->genHtml->imprimirResultado($info, $msg);
+                break;
         }
     }
 
@@ -1968,6 +2028,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 $info = "ERORR DESCONOCIDO";
                 $msg = "FAVOR CONSULTE AL ADMINISTRADOR DEL SISTEMA!";
                 $this->genHtml->imprimirResultado($info, $msg);
+                break;
         }
     }
 
@@ -1993,6 +2054,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 break;
             default:
                 header('Location: ../index.php?msg=unknown');
+                break;
         }
 
     }
@@ -2046,6 +2108,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 $info = "ERORR DE INSERCION";
                 $msg = "FAVOR CONSULTE AL ADMINISTRADOR DEL SISTEMA!";
                 $this->genHtml->imprimirResultado($info, $msg);
+                break;
         }
     }
 
@@ -2071,6 +2134,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                     break;
             default:
                 header('Location: ../index.php?msg=unknown');
+                break;
         }
 
     }
@@ -2097,6 +2161,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                     break;
             default:
                 header('Location: ../index.php?msg=unknown');
+                break;
         }
     }
 
@@ -2117,6 +2182,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 $info = "ERORR DESCONOCIDO";
                 $msg = "FAVOR CONSULTE AL ADMINISTRADOR DEL SISTEMA!";
                 $this->genHtml->imprimirResultado($info, $msg);
+                break;
         }
     }
 
@@ -2134,6 +2200,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 break;
             default:
                 header('Location: ../index.php?msg=unknown');
+                break;
         }
     }
 
@@ -2184,6 +2251,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 break;
             default:
                 header('Location: ../index.php?msg=unknown');
+                break;
         }
 
     }
@@ -2242,6 +2310,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 break;
             default:
                 header('Location: ../index.php?msg=unknown');
+                break;
 
         }
     }
@@ -2320,6 +2389,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 break;
             default:
                 header('Location: ../index.php?msg=unknown');
+                break;
         }
     }
     public function ejecutarMostrarFormularioVendedorM($idVendedor)
@@ -2354,6 +2424,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 break;
             default:
                 header('Location: ../index.php?msg=unknown');
+                break;
         }
     }
      public function ejecutarProcesarInmuebleM($id, $imp, $adm, $desc)
@@ -2393,6 +2464,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 $info = "ERORR DESCONOCIDO";
                 $msg = "FAVOR CONSULTE AL ADMINISTRADOR DEL SISTEMA!";
                 $this->genHtml->imprimirResultado($info, $msg);
+                break;
         }
      }
 
@@ -2415,6 +2487,7 @@ public function ejecutarProcesarClienteNaturalM($cedC,$emailC, $telfC, $telcC)
                 $info = "ERORR DESCONOCIDO";
                 $msg = "FAVOR CONSULTE AL ADMINISTRADOR DEL SISTEMA!";
                 $this->genHtml->imprimirResultado($info, $msg);
+                break;
         }
      }
 }

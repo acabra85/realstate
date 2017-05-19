@@ -3,7 +3,7 @@
 function validar_solicitud()
 {
     //nombre cliente
-    if(!validarFechaPosterior("Inicio"))
+    if(!validarFechaPosterior("Inicio")){}
     else
     {
         copiarValorCombo(document.crear_solicitud_ini.cedulas_cliente,

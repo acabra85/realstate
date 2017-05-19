@@ -215,7 +215,9 @@ class HtmlGenerator
         print "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />";
         $this->tituloPagina("Nuevo Cliente");
         print "</head><body onload=apagarJuri()>";
-        print "<table class='basic_header' id='basic_header1' >"."<div aling='center'id='marco'>"."<form name='crear_cliente' method='POST' action='../Vista/form_processor.php'>".
+        print "<table class='basic_header' id='basic_header1' >"
+            ."<div aling='center'id='marco'>"
+            ."<form name='crear_cliente' method='POST' action='../Vista/form_processor.php'>".
             "<table class='ppal' align='center'>".
             "<tr>".
             "</tr>".
